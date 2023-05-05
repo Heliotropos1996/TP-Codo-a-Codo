@@ -9,22 +9,19 @@
 
 #descripcion-container {
     background-color: rgba(0, 0, 0, 0.8);
-    position: relative;
+    position: absolute;
     top: 50%;
-    
-    right: 5%;
+    left: 50%;
     width: 45%;
-    height: 40%;
+    height: 35%;
     box-sizing: border-box;
-    float: right;
-    display: flex;
+
+
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+
+
     transition: all 1.5s ease;
-    cursor: pointer;
-    text-decoration: none;
-    overflow: hidden;
+
     border-radius: 10px;
     border: 0.5px solid white;
 
@@ -34,7 +31,7 @@
     width: calc(100% - 40px);
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
 
     margin-bottom: 10%;
@@ -52,6 +49,20 @@
     font-size: 40px;
     margin: 0;
     margin-bottom: 10px;
+
+}
+
+#descripcion-container button {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    transition: all 0.5s ease;
+    margin-left: 70%;
+
+}
+
+.boton {
+    display: inline-block;
 
 }
 
@@ -177,7 +188,8 @@
     ;
 }
 
-.text p, .text h2 {
+.text p,
+.text h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
 
