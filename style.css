@@ -1,4 +1,51 @@
-/* #portada {
+#portada {
     background-image: url(img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 
-} */
+
+}
+
+#descripcion-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+
+
+}
+
+#descripcion-container p {
+    width: calc(60% - 50px);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+
+#descripcion-container h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
