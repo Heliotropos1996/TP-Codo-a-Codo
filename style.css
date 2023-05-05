@@ -173,6 +173,14 @@
     align-items: center;
     flex-direction: column;
     width: 50%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     ;
+}
+.text p, h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
 }
