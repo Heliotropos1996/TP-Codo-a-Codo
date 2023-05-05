@@ -8,10 +8,10 @@
 }
 
 #descripcion-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     position: relative;
-    top: 40%;
-    bottom: 5%;
+    top: 50%;
+    
     right: 5%;
     width: 45%;
     height: 40%;
